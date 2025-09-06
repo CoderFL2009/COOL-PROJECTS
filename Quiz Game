@@ -1,7 +1,6 @@
 """
 Siddharth Hamsanipally
 Project: Flash Quiz
-Date: 06/01/2025
 """
 print("Welcome to my Flash Quiz!")
 playing = input("Do you want to play? ")
@@ -155,4 +154,5 @@ else:
 
 
 print("You got " +  str(score)  + " questions correct!")
+
 print("You got " +  str(score / 20 * 100)  + "%")
