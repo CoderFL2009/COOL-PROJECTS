@@ -1,0 +1,158 @@
+"""
+Siddharth Hamsanipally
+Project: Flash Quiz
+Date: 06/01/2025
+"""
+print("Welcome to my Flash Quiz!")
+playing = input("Do you want to play? ")
+
+if playing.lower() != "yes":
+    quit()
+
+print("Okay! Lets Play :)")
+score = 0
+
+answer = input("Who was the Flash's worst enemy during season 1? ")
+if answer.lower() == "reverse flash":
+    print("YOU GOT IT RIGHT!!!!")
+    score += 1
+else:
+    print("YOU GOT IT WRONG!!!")
+
+answer = input("Who was the Flash's worst enemy during season 2? ")
+if answer.lower() == "zoom":
+    print("YOU GOT IT RIGHT!!!!")
+    score += 1
+else:
+    print("YOU GOT IT WRONG!!!")
+
+answer = input("Who was the Flash's worst enemy during season 3? ")
+if answer.lower() == "savitar":
+    print("YOU GOT IT RIGHT!!!!")
+    score += 1
+else:
+    print("YOU GOT IT WRONG!!!")
+
+answer = input("Who was the Flash's worst enemy during season 4? ")
+if answer.lower()== "devoe":
+    print("YOU GOT IT RIGHT!!!!")
+    score += 1
+else:
+    print("YOU GOT IT WRONG!!!")
+
+answer = input("In what event was the flash predicted to die? ")
+if answer.lower() == "crisis":
+    print("YOU GOT IT RIGHT!!!!")
+    score += 1
+else:
+    print("YOU GOT IT WRONG!!!")
+
+answer = input("What was the Flash's main dayjob? ")
+if answer.lower() == "csi":
+    print("YOU GOT IT RIGHT!!!!")
+    score += 1
+else:
+    print("YOU GOT IT WRONG!!!")
+
+answer = input("Who was like the father-figure for Barry Allen? ")
+if answer.lower() == "joe":
+    print("YOU GOT IT RIGHT!!!!")
+    score += 1
+else:
+    print("YOU GOT IT WRONG!!!")
+
+answer = input("What was the cosmic force that the Flash gained his speed from? ")
+if answer.lower()== "speed force":
+    print("YOU GOT IT RIGHT!!!!")
+    score += 1
+else:
+    print("YOU GOT IT WRONG!!!")
+
+answer = input("Who was the Bus Meta that was an adversary to the flash? ")
+if answer.lower() == "ralph dibny":
+    print("YOU GOT IT RIGHT!!!!")
+    score += 1
+else:
+    print("YOU GOT IT WRONG!!!")
+
+answer = input("Who was Caitlin's father? ")
+if answer.lower() == "thomas snow":
+    print("YOU GOT IT RIGHT!!!!")
+    score += 1
+else:
+    print("YOU GOT IT WRONG!!!")
+
+answer = input("Who was sacraficed to Savitar for Iris's death? ")
+if answer.lower() == "hr wells":
+    print("YOU GOT IT RIGHT!!!!")
+    score += 1
+else:
+    print("YOU GOT IT WRONG!!!")
+
+answer = input("Who is the intellect for the FireStorm Matrix? ")
+if answer.lower()== "martin stein":
+    print("YOU GOT IT RIGHT!!!!")
+    score += 1
+else:
+    print("YOU GOT IT WRONG!!!")
+
+answer = input("Who was Iris's first boyfriend? ")
+if answer.lower() == "eddie thawne":
+    print("YOU GOT IT RIGHT!!!!")
+    score += 1
+else:
+    print("YOU GOT IT WRONG!!!")
+
+answer = input("What color lightning did Zoom have? ")
+if answer.lower() == "blue":
+    print("YOU GOT IT RIGHT!!!!")
+    score += 1
+else:
+    print("YOU GOT IT WRONG!!!")
+
+answer = input("What drug is used to increase speed? ")
+if answer.lower() == "v9":
+    print("YOU GOT IT RIGHT!!!!")
+    score += 1
+else:
+    print("YOU GOT IT WRONG!!!")
+
+answer = input("What was the trademark for Wally West? ")
+if answer.lower()== "kid flash":
+    print("YOU GOT IT RIGHT!!!!")
+    score += 1
+else:
+    print("YOU GOT IT WRONG!!!")
+
+answer = input("What alternate timeline did Barry create? ")
+if answer.lower() == "flashpoint":
+    print("YOU GOT IT RIGHT!!!!")
+    score += 1
+else:
+    print("YOU GOT IT WRONG!!!")
+
+answer = input("How many positive forces are there? ")
+if answer.lower() == "four":
+    print("YOU GOT IT RIGHT!!!!")
+    score += 1
+else:
+    print("YOU GOT IT WRONG!!!")
+
+answer = input("Who was the mirror monarch? ")
+if answer.lower() == "eva mcculloch":
+    print("YOU GOT IT RIGHT!!!!")
+    score += 1
+else:
+    print("YOU GOT IT WRONG!!!")
+
+answer = input("What disease did Ramsy Rosso have? ")
+if answer.lower()== "hlh":
+    print("YOU GOT IT RIGHT!!!!")
+    score += 1
+else:
+    print("YOU GOT IT WRONG!!!")
+
+
+
+print("You got " +  str(score)  + " questions correct!")
+print("You got " +  str(score / 20 * 100)  + "%")
